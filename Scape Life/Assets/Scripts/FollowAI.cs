@@ -8,9 +8,9 @@ public class FollowAI : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private Transform player;
 
-    private bool isFacingRight = true;
-
     private Animator enemyAnimator;
+
+    
 
     private void Start()
     {

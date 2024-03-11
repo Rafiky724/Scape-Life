@@ -6,9 +6,13 @@ public class PlayerMovement : MonoBehaviour
 {
 
     [SerializeField] private float speed = 3f;
-    [SerializeField] private float damage;
     private Rigidbody2D playerRb;
-    private Vector2 moveInput;
+
+    public float delay = 0.3f;
+    private bool attackBlocked;
+
+    public Transform circleOrigin;
+    public float circleRadius;
 
     private Animator playerAnimator;
     void Start()
@@ -37,7 +41,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            playerAnimator.SetTrigger("Attack");
+            Attack();
+            
         }
     }
     private void FixedUpdate()
@@ -48,6 +53,42 @@ public class PlayerMovement : MonoBehaviour
 
         playerRb.MovePosition(playerRb.position + moveInput * speed * Time.fixedDeltaTime);
         
+    }
+
+    public void Attack()
+    {
+        if (attackBlocked)
+            return;
+        playerAnimator.SetTrigger("Attack");
+        attackBlocked = true;
+        StartCoroutine(DelayAttack());
+    }
+
+    private IEnumerator DelayAttack()
+    {
+        yield return new WaitForSeconds(delay);
+        attackBlocked = false;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.blue;
+        Vector3 position = circleOrigin == null ? Vector3.zero : circleOrigin.position;
+        Gizmos.DrawWireSphere(position, circleRadius);
+
+    }
+
+    public void DetectColliders()
+    {
+
+        foreach (Collider2D collider in Physics2D.OverlapCircleAll(circleOrigin.position, circleRadius))
+        {
+            EnemyHearth health;
+            if (health = collider.GetComponent<EnemyHearth>())
+            {
+                health.GetHit(1, transform.parent.gameObject);
+            }
+        }
     }
 
 }
