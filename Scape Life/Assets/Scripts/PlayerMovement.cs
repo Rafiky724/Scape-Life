@@ -11,9 +11,6 @@ public class PlayerMovement : MonoBehaviour
     public float delay = 0.3f;
     private bool attackBlocked;
 
-    public Transform circleOrigin;
-    public float circleRadius;
-
     private Animator playerAnimator;
     void Start()
     {
@@ -70,25 +67,8 @@ public class PlayerMovement : MonoBehaviour
         attackBlocked = false;
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.blue;
-        Vector3 position = circleOrigin == null ? Vector3.zero : circleOrigin.position;
-        Gizmos.DrawWireSphere(position, circleRadius);
+    
 
-    }
-
-    public void DetectColliders()
-    {
-
-        foreach (Collider2D collider in Physics2D.OverlapCircleAll(circleOrigin.position, circleRadius))
-        {
-            EnemyHearth health;
-            if (health = collider.GetComponent<EnemyHearth>())
-            {
-                health.GetHit(1, transform.parent.gameObject);
-            }
-        }
-    }
+   
 
 }
