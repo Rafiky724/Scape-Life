@@ -20,21 +20,31 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
+   
+        Vector3 mousePosition = Input.mousePosition;
+      
+        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+
+        float mouseX = mousePosition.x - transform.position.x;
+        float mouseY = mousePosition.y - transform.position.y;
+
+        playerAnimator.SetFloat("Horizontal", mouseX);
+        playerAnimator.SetFloat("Vertical", mouseY);
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
-        moveInput = new Vector2(moveX, moveY).normalized;
+        playerAnimator.SetFloat("Speed", Mathf.Abs(moveX) + Mathf.Abs(moveY));
 
-        playerAnimator.SetFloat("Horizontal", moveX);
-        playerAnimator.SetFloat("Vertical", moveY);
-        playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             playerAnimator.SetTrigger("Attack");
         }
     }
     private void FixedUpdate()
     {
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+        Vector2 moveInput = new Vector2(moveX, moveY).normalized;
 
         playerRb.MovePosition(playerRb.position + moveInput * speed * Time.fixedDeltaTime);
         
