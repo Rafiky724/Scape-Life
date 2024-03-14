@@ -34,8 +34,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        myRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed;
+        Vector2 inputVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        myRB.velocity = inputVector * speed;
         myAnim.SetFloat("moveX", myRB.velocity.x);
         myAnim.SetFloat("moveY", myRB.velocity.y);
 
@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             attackCounter = attackTime;
             myAnim.SetBool("isAttacking", true);

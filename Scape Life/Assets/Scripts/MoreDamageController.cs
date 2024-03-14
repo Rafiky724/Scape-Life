@@ -104,20 +104,20 @@ public class MoreDamageController : MonoBehaviour
             if (nivelMejora == 1)
             {
 
-                hurt1.damageToGive = 4;
-                hurt2.damageToGive = 4;
-                hurt3.damageToGive = 4;
-                hurt4.damageToGive = 4;
+                hurt1.damageToGive = 8;
+                hurt2.damageToGive = 8;
+                hurt3.damageToGive = 8;
+                hurt4.damageToGive = 8;
                 costoMejora = 100;
 
             }
             if (nivelMejora == 2)
             {
 
-                hurt1.damageToGive = 7;
-                hurt2.damageToGive = 7;
-                hurt3.damageToGive = 7;
-                hurt4.damageToGive = 7;
+                hurt1.damageToGive = 10;
+                hurt2.damageToGive = 10;
+                hurt3.damageToGive = 10;
+                hurt4.damageToGive = 10;
                 costoMejora = 500;
 
 
@@ -125,32 +125,32 @@ public class MoreDamageController : MonoBehaviour
             if (nivelMejora == 3)
             {
 
-                hurt1.damageToGive = 10;
-                hurt2.damageToGive = 10;
-                hurt3.damageToGive = 10;
-                hurt4.damageToGive = 10;
-                costoMejora = 1500;
+                hurt1.damageToGive = 12;
+                hurt2.damageToGive = 12;
+                hurt3.damageToGive = 12;
+                hurt4.damageToGive = 12;
+                costoMejora = 1000;
 
 
             }
             if (nivelMejora == 4)
             {
 
-                hurt1.damageToGive = 15;
-                hurt2.damageToGive = 15;
-                hurt3.damageToGive = 15;
-                hurt4.damageToGive = 15;
-                costoMejora = 5000;
+                hurt1.damageToGive = 14;
+                hurt2.damageToGive = 14;
+                hurt3.damageToGive = 14;
+                hurt4.damageToGive = 14;
+                costoMejora = 2500;
 
 
             }
             if (nivelMejora == 5)
             {
 
-                hurt1.damageToGive = 20;
-                hurt2.damageToGive = 20;
-                hurt3.damageToGive = 20;
-                hurt4.damageToGive = 20;
+                hurt1.damageToGive = 16;
+                hurt2.damageToGive = 16;
+                hurt3.damageToGive = 16;
+                hurt4.damageToGive = 16;
                 costoMejora = -1;
 
             }

@@ -78,7 +78,7 @@ public class CurarseController : MonoBehaviour
     public void ActualizarCosto()
     {
 
-        costoMejora = 10 * player.potenciaMonedas;
+        costoMejora = 5 * player.potenciaMonedas;
         messageToShow = "Presiona [Espacio] para curarte por " + costoMejora.ToString() + " monedas";
 
     }
