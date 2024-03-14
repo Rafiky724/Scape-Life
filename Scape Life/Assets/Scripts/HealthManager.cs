@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthManager : MonoBehaviour
 {
 
     public int currentHealth;
     public int maxHealth;
+
+    public string messageToShow;
+    public TextMeshProUGUI messageText;
 
     // Start is called before the first frame update
     void Start()
@@ -25,10 +30,23 @@ public class HealthManager : MonoBehaviour
 
         currentHealth -= damageToGive;
 
+        messageToShow = currentHealth.ToString() + "/" + maxHealth.ToString();
+        messageText.text = messageToShow;
+
         if (currentHealth <= 0)
         {
             gameObject.SetActive(false);
+            SceneManager.LoadScene("SampleScene");
+
         }
+
+    }
+
+    public void actualizarVida()
+    {
+
+        messageToShow = currentHealth.ToString() + "/" + maxHealth.ToString();
+        messageText.text = messageToShow;
 
     }
 

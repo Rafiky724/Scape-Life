@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour
     private Animator myAnim;
     private Transform target;
 
+    public GameObject monedaPrefab;
+
     [SerializeField]
     private float speed;
 
@@ -59,6 +61,7 @@ public class EnemyController : MonoBehaviour
         if (currentHealth <= 0)
         {
 
+            Instantiate(monedaPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
 
         }
@@ -72,7 +75,7 @@ public class EnemyController : MonoBehaviour
         {
 
             Vector2 difference = transform.position - other.transform.position;
-            transform.position = new Vector2(transform.position.x + (difference.x*2), transform.position.y + (difference.y*2));
+            transform.position = new Vector2(transform.position.x + (difference.x), transform.position.y + (difference.y));
 
         }
 

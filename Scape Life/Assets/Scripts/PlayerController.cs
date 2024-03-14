@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -15,6 +16,11 @@ public class PlayerController : MonoBehaviour
     private float attackCounter = .25f;
     private bool isAttacking;
 
+    public string messageToShow;
+    public TextMeshProUGUI messageText;
+
+    public int potenciaMonedas = 1;
+    public int coins = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +35,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        myRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
+        myRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed;
         myAnim.SetFloat("moveX", myRB.velocity.x);
         myAnim.SetFloat("moveY", myRB.velocity.y);
 
@@ -59,7 +65,7 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             attackCounter = attackTime;
             myAnim.SetBool("isAttacking", true);
@@ -68,4 +74,30 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        
+        if (other.tag == "Moneda")
+        {
+
+            Destroy(other.gameObject);
+
+            coins += potenciaMonedas;
+            MonedasActualizar();
+
+        }
+
+
+    }
+
+    public void MonedasActualizar()
+    {
+
+        messageToShow = "Monedas: " + coins.ToString();
+        messageText.text = messageToShow;
+
+    }
+
+
 }
