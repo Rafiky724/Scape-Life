@@ -1741,6 +1741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1069873946}
   - component: {fileID: 1069873945}
+  - component: {fileID: 1069873947}
   m_Layer: 0
   m_Name: spawnBeast
   m_TagString: Untagged
@@ -1777,6 +1778,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1069873947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069873944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1149633985299010200, guid: 5f9baf4b450f9fe479c44b4fdf69f6e9, type: 3}
+  spawnInterval: 5
 --- !u!1 &1091699262
 GameObject:
   m_ObjectHideFlags: 0
@@ -2349,7 +2364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d21ef6fd08a42d4d8bf2d37b872e744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  costoMejora: 20000
+  costoMejora: 100000
   messageToShow: 
   messageText: {fileID: 604922635}
   Ganaste: {fileID: 2018348254}
@@ -48101,6 +48116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1817340456}
   - component: {fileID: 1817340455}
+  - component: {fileID: 1817340457}
   m_Layer: 0
   m_Name: spawnAxolote
   m_TagString: Untagged
@@ -48137,6 +48153,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1817340457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817340454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1149633985299010200, guid: 5f9baf4b450f9fe479c44b4fdf69f6e9, type: 3}
+  spawnInterval: 5
 --- !u!1 &1859586410
 GameObject:
   m_ObjectHideFlags: 0
@@ -58292,6 +58322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977186792}
   - component: {fileID: 1977186791}
+  - component: {fileID: 1977186793}
   m_Layer: 0
   m_Name: spawnSlime
   m_TagString: Untagged
@@ -58328,6 +58359,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1977186793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977186790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 395592506730809952, guid: 0ee88ef8f7943f44c84d4f1844b52a24, type: 3}
+  spawnInterval: 8
 --- !u!1 &2018348253
 GameObject:
   m_ObjectHideFlags: 0

@@ -197,8 +197,8 @@ MonoBehaviour:
   monedaPrefab: {fileID: 4708963192766045103, guid: 7b7b8ac3e531fa0408971505e7906523, type: 3}
   speed: 2
   range: 0.12
-  currentHealth: 10
-  maxHealth: 10
+  currentHealth: 12
+  maxHealth: 12
 --- !u!114 &8098434017775102180
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -196,7 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waiToHurt: 1
   isTouching: 0
-  damageToGive: 5
+  damageToGive: 12
 --- !u!114 &6220866496681875672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,5 +212,5 @@ MonoBehaviour:
   monedaPrefab: {fileID: 4708963192766045103, guid: 7b7b8ac3e531fa0408971505e7906523, type: 3}
   speed: 1.5
   range: 0.12
-  currentHealth: 15
-  maxHealth: 15
+  currentHealth: 25
+  maxHealth: 25
