@@ -104,20 +104,20 @@ public class MoreDamageController : MonoBehaviour
             if (nivelMejora == 1)
             {
 
-                hurt1.damageToGive = 8;
-                hurt2.damageToGive = 8;
-                hurt3.damageToGive = 8;
-                hurt4.damageToGive = 8;
+                hurt1.damageToGive = 5;
+                hurt2.damageToGive = 5;
+                hurt3.damageToGive = 5;
+                hurt4.damageToGive = 5;
                 costoMejora = 100;
 
             }
             if (nivelMejora == 2)
             {
 
-                hurt1.damageToGive = 10;
-                hurt2.damageToGive = 10;
-                hurt3.damageToGive = 10;
-                hurt4.damageToGive = 10;
+                hurt1.damageToGive = 8;
+                hurt2.damageToGive = 8;
+                hurt3.damageToGive = 8;
+                hurt4.damageToGive = 8;
                 costoMejora = 500;
 
 
@@ -136,10 +136,10 @@ public class MoreDamageController : MonoBehaviour
             if (nivelMejora == 4)
             {
 
-                hurt1.damageToGive = 14;
-                hurt2.damageToGive = 14;
-                hurt3.damageToGive = 14;
-                hurt4.damageToGive = 14;
+                hurt1.damageToGive = 18;
+                hurt2.damageToGive = 18;
+                hurt3.damageToGive = 18;
+                hurt4.damageToGive = 18;
                 costoMejora = 2500;
 
 
@@ -147,10 +147,10 @@ public class MoreDamageController : MonoBehaviour
             if (nivelMejora == 5)
             {
 
-                hurt1.damageToGive = 16;
-                hurt2.damageToGive = 16;
-                hurt3.damageToGive = 16;
-                hurt4.damageToGive = 16;
+                hurt1.damageToGive = 24;
+                hurt2.damageToGive = 24;
+                hurt3.damageToGive = 24;
+                hurt4.damageToGive = 24;
                 costoMejora = -1;
 
             }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class MoreCoinsController : MonoBehaviour
 {
 
-    public int costoMejora = 10;
+    public int costoMejora = 20;
     public string messageToShow;
     public TextMeshProUGUI messageText;
     public CurarseController curar;
@@ -80,7 +80,7 @@ public class MoreCoinsController : MonoBehaviour
             {
 
                 player.potenciaMonedas = 3;
-                costoMejora = 100;
+                costoMejora = 150;
 
             }
             if (nivelMejora == 2)
@@ -95,7 +95,7 @@ public class MoreCoinsController : MonoBehaviour
             {
 
                 player.potenciaMonedas = 30;
-                costoMejora = 1500;
+                costoMejora = 2000;
 
 
             }
@@ -103,7 +103,7 @@ public class MoreCoinsController : MonoBehaviour
             {
 
                 player.potenciaMonedas = 100;
-                costoMejora = 5000;
+                costoMejora = 8000;
 
 
             }

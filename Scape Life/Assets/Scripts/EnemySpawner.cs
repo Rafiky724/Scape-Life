@@ -7,12 +7,13 @@ public class EnemySpawner : MonoBehaviour
 
     public GameObject enemyPrefab; // Asigna el prefab del enemigo en el Inspector
     public float spawnInterval = 5f; // Intervalo de tiempo entre spawns
+    public bool estaActivo = false;
 
     // Start is called before the first frame update
     void Start()
     {
 
-        InvokeRepeating("SpawnEnemy", 0f, spawnInterval);
+        //InvokeRepeating("SpawnEnemy", 0f, spawnInterval);
 
     }
 
@@ -20,6 +21,13 @@ public class EnemySpawner : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ActivarSpawn()
+    {
+
+        InvokeRepeating("SpawnEnemy", 0f, spawnInterval);
+
     }
 
     private void SpawnEnemy()

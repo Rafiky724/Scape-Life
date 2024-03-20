@@ -26,7 +26,7 @@ public class PlayerTimer : MonoBehaviour
         // Mostrar el tiempo en formato legible
         MostrarTiempo();
 
-        Debug.Log(tiempoLimite);
+        //Debug.Log(tiempoLimite);
 
         if (tiempoTranscurrido >= tiempoLimite)
         {
