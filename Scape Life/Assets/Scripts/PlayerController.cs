@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.Mouse0))
         {
             attackCounter = attackTime;
             myAnim.SetBool("isAttacking", true);

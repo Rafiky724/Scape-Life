@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b366a5c71b677347b917fe03e917092
+guid: c9e60cca813c47548bd2b767d9e86ff3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Reptile_0
+      name: Lizard2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b162c0a954c51349970b6027b7b1328
-      internalID: 498891302
+      spriteID: d65e2c20cf35ef44fb3101a8009f4857
+      internalID: 1288460022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_1
+      name: Lizard2_1
       rect:
         serializedVersion: 2
         x: 16
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34de94a15e0a81c42bda514ae9a0da15
-      internalID: -410148842
+      spriteID: 88bb1208cec6b8d43a91d8d95ad41c01
+      internalID: -1538296434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_2
+      name: Lizard2_2
       rect:
         serializedVersion: 2
         x: 32
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b97d488b7b3a24baea29c8d03ee19e
-      internalID: -228311027
+      spriteID: b64a03d0336c193419a152340ade4cbe
+      internalID: 1647370937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_3
+      name: Lizard2_3
       rect:
         serializedVersion: 2
         x: 48
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0683b6944f8bbf43b6447c1ee1648e0
-      internalID: 1997563383
+      spriteID: 5ed65a8b200a34e4bb7e488e8b454f87
+      internalID: 232956788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_4
+      name: Lizard2_4
       rect:
         serializedVersion: 2
         x: 0
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b71be47651342a64eb1579d018df62f4
-      internalID: -2072716051
+      spriteID: 4a9b53bebadcd9e48bf20c875f6ab72d
+      internalID: -494528966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_5
+      name: Lizard2_5
       rect:
         serializedVersion: 2
         x: 16
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc74d677d794aa9419c7ce9b7f9d86f8
-      internalID: -1194172676
+      spriteID: 5bf03c01311de98408c3d1b17fd206b3
+      internalID: -502120315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_6
+      name: Lizard2_6
       rect:
         serializedVersion: 2
         x: 32
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88d7e437a66fd5d42a9259d99f229169
-      internalID: -1616435423
+      spriteID: 3f9550b9508dee34aadb0c3af652a40e
+      internalID: 1030060655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_7
+      name: Lizard2_7
       rect:
         serializedVersion: 2
         x: 48
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff87182a4b2b6f949a8553f55404b8ff
-      internalID: 446120655
+      spriteID: 37318b6d482356649b8bed2267b60534
+      internalID: -2045671104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_8
+      name: Lizard2_8
       rect:
         serializedVersion: 2
         x: 0
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 172fc56d06974ef459579e58c8e4c816
-      internalID: 1923147056
+      spriteID: bee6ccafc7bc87c438bfb0dc2673fd09
+      internalID: 1457666054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_9
+      name: Lizard2_9
       rect:
         serializedVersion: 2
         x: 16
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e127e62561a574643ad5674a4dddcb6b
-      internalID: 1918972163
+      spriteID: ee3ac70cd9c6dd6419d824e0e0e35f9f
+      internalID: 68285064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_10
+      name: Lizard2_10
       rect:
         serializedVersion: 2
         x: 32
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2652810e73890c04cbefab0112aa95e1
-      internalID: -1523834640
+      spriteID: 4f9521e44d6a3504289dc05b41280bd9
+      internalID: 456986334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_11
+      name: Lizard2_11
       rect:
         serializedVersion: 2
         x: 48
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef5e3d80f7a4a644889dcf1a3878fff
-      internalID: 1320390146
+      spriteID: 992e27d8645179a40a76427f6db451de
+      internalID: -440052723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_12
+      name: Lizard2_12
       rect:
         serializedVersion: 2
         x: 0
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d542dc871a9960043a3bffe2f4404aae
-      internalID: -1172688752
+      spriteID: 311d5b75df0c28041962b19a748d914b
+      internalID: -821337680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_13
+      name: Lizard2_13
       rect:
         serializedVersion: 2
         x: 16
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9a1189c36bba0e4fa6c48f0996d1710
-      internalID: 1084073566
+      spriteID: 66ad11a5fe7c63445bcbbc0ad6e02361
+      internalID: -630190859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_14
+      name: Lizard2_14
       rect:
         serializedVersion: 2
         x: 32
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f497a63d003642e47a514c801c012d8d
-      internalID: -866324415
+      spriteID: 0e772e002aad8fc4a9dc237627072e8a
+      internalID: 711795762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_15
+      name: Lizard2_15
       rect:
         serializedVersion: 2
         x: 48
@@ -426,8 +426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66813124e9e7d48498aceffcba193036
-      internalID: -1012370418
+      spriteID: f4f3f36a8873cdf45847b87ebf200e0f
+      internalID: -1100839943
       vertices: []
       indices: 
       edges: []
@@ -443,22 +443,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Reptile_0: 498891302
-      Reptile_1: -410148842
-      Reptile_10: -1523834640
-      Reptile_11: 1320390146
-      Reptile_12: -1172688752
-      Reptile_13: 1084073566
-      Reptile_14: -866324415
-      Reptile_15: -1012370418
-      Reptile_2: -228311027
-      Reptile_3: 1997563383
-      Reptile_4: -2072716051
-      Reptile_5: -1194172676
-      Reptile_6: -1616435423
-      Reptile_7: 446120655
-      Reptile_8: 1923147056
-      Reptile_9: 1918972163
+      Lizard2_0: 1288460022
+      Lizard2_1: -1538296434
+      Lizard2_10: 456986334
+      Lizard2_11: -440052723
+      Lizard2_12: -821337680
+      Lizard2_13: -630190859
+      Lizard2_14: 711795762
+      Lizard2_15: -1100839943
+      Lizard2_2: 1647370937
+      Lizard2_3: 232956788
+      Lizard2_4: -494528966
+      Lizard2_5: -502120315
+      Lizard2_6: 1030060655
+      Lizard2_7: -2045671104
+      Lizard2_8: 1457666054
+      Lizard2_9: 68285064
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

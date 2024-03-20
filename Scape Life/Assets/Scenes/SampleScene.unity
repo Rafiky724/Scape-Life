@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 58899612}
   - component: {fileID: 58899610}
-  - component: {fileID: 58899611}
   m_Layer: 0
   m_Name: spawnSlime3
   m_TagString: Untagged
@@ -155,21 +154,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1149633985299010200, guid: 5f9baf4b450f9fe479c44b4fdf69f6e9, type: 3}
   spawnInterval: 6
-  estaActivo: 0
---- !u!114 &58899611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 58899609}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 395592506730809952, guid: 0ee88ef8f7943f44c84d4f1844b52a24, type: 3}
-  spawnInterval: 8
   estaActivo: 0
 --- !u!4 &58899612
 Transform:
@@ -716,7 +700,6 @@ GameObject:
   m_Component:
   - component: {fileID: 411338017}
   - component: {fileID: 411338015}
-  - component: {fileID: 411338016}
   m_Layer: 0
   m_Name: spawnBicho3-2
   m_TagString: Untagged
@@ -738,21 +721,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1149633985299010200, guid: 095455d158fd0a64a92bf76bdd2683fe, type: 3}
   spawnInterval: 11
-  estaActivo: 0
---- !u!114 &411338016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411338014}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 395592506730809952, guid: 0ee88ef8f7943f44c84d4f1844b52a24, type: 3}
-  spawnInterval: 8
   estaActivo: 0
 --- !u!4 &411338017
 Transform:
@@ -873,7 +841,6 @@ GameObject:
   m_Component:
   - component: {fileID: 438013648}
   - component: {fileID: 438013646}
-  - component: {fileID: 438013647}
   m_Layer: 0
   m_Name: spawnBicho3-3
   m_TagString: Untagged
@@ -895,21 +862,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1149633985299010200, guid: 095455d158fd0a64a92bf76bdd2683fe, type: 3}
   spawnInterval: 11
-  estaActivo: 0
---- !u!114 &438013647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438013645}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 395592506730809952, guid: 0ee88ef8f7943f44c84d4f1844b52a24, type: 3}
-  spawnInterval: 8
   estaActivo: 0
 --- !u!4 &438013648
 Transform:
@@ -1678,7 +1630,6 @@ GameObject:
   m_Component:
   - component: {fileID: 907850567}
   - component: {fileID: 907850565}
-  - component: {fileID: 907850566}
   m_Layer: 0
   m_Name: spawnAxolote2
   m_TagString: Untagged
@@ -1699,22 +1650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8249331755536849772, guid: 8edea38fcad8acd4583423a177b1cec7, type: 3}
-  spawnInterval: 11
-  estaActivo: 0
---- !u!114 &907850566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907850564}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1149633985299010200, guid: 5f9baf4b450f9fe479c44b4fdf69f6e9, type: 3}
-  spawnInterval: 5
+  spawnInterval: 15
   estaActivo: 0
 --- !u!4 &907850567
 Transform:
@@ -1993,7 +1929,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1051980003}
   - component: {fileID: 1051980001}
-  - component: {fileID: 1051980002}
   m_Layer: 0
   m_Name: spawnSlime2
   m_TagString: Untagged
@@ -2015,21 +1950,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1149633985299010200, guid: 5f9baf4b450f9fe479c44b4fdf69f6e9, type: 3}
   spawnInterval: 6
-  estaActivo: 0
---- !u!114 &1051980002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051980000}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 395592506730809952, guid: 0ee88ef8f7943f44c84d4f1844b52a24, type: 3}
-  spawnInterval: 8
   estaActivo: 0
 --- !u!4 &1051980003
 Transform:
@@ -2056,7 +1976,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1069873946}
   - component: {fileID: 1069873945}
-  - component: {fileID: 1069873947}
   m_Layer: 0
   m_Name: spawnBeast
   m_TagString: Untagged
@@ -2094,21 +2013,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1069873947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069873944}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1149633985299010200, guid: 5f9baf4b450f9fe479c44b4fdf69f6e9, type: 3}
-  spawnInterval: 5
-  estaActivo: 0
 --- !u!1 &1091699262
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,7 +2107,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1160331034}
   - component: {fileID: 1160331032}
-  - component: {fileID: 1160331033}
   m_Layer: 0
   m_Name: spawnBicho2-1
   m_TagString: Untagged
@@ -2225,21 +2128,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1149633985299010200, guid: 8181cbffa38fa9743875b4eeeb13fbb2, type: 3}
   spawnInterval: 9
-  estaActivo: 0
---- !u!114 &1160331033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160331031}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 395592506730809952, guid: 0ee88ef8f7943f44c84d4f1844b52a24, type: 3}
-  spawnInterval: 8
   estaActivo: 0
 --- !u!4 &1160331034
 Transform:
@@ -2266,7 +2154,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1238276188}
   - component: {fileID: 1238276186}
-  - component: {fileID: 1238276187}
   m_Layer: 0
   m_Name: spawnBicho2-3
   m_TagString: Untagged
@@ -2288,21 +2175,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1149633985299010200, guid: 8181cbffa38fa9743875b4eeeb13fbb2, type: 3}
   spawnInterval: 9
-  estaActivo: 0
---- !u!114 &1238276187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238276185}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 395592506730809952, guid: 0ee88ef8f7943f44c84d4f1844b52a24, type: 3}
-  spawnInterval: 8
   estaActivo: 0
 --- !u!4 &1238276188
 Transform:
@@ -2525,7 +2397,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -860, y: -514.35486}
+  m_AnchoredPosition: {x: -844, y: -514.35486}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1273900720
@@ -2659,7 +2531,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1279233815}
   - component: {fileID: 1279233813}
-  - component: {fileID: 1279233814}
   m_Layer: 0
   m_Name: spawnBicho3-1
   m_TagString: Untagged
@@ -2681,21 +2552,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1149633985299010200, guid: 095455d158fd0a64a92bf76bdd2683fe, type: 3}
   spawnInterval: 11
-  estaActivo: 0
---- !u!114 &1279233814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279233812}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 395592506730809952, guid: 0ee88ef8f7943f44c84d4f1844b52a24, type: 3}
-  spawnInterval: 8
   estaActivo: 0
 --- !u!4 &1279233815
 Transform:
@@ -48684,7 +48540,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1817340456}
   - component: {fileID: 1817340455}
-  - component: {fileID: 1817340457}
   m_Layer: 0
   m_Name: spawnAxolote
   m_TagString: Untagged
@@ -48705,7 +48560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8249331755536849772, guid: 8edea38fcad8acd4583423a177b1cec7, type: 3}
-  spawnInterval: 11
+  spawnInterval: 15
   estaActivo: 0
 --- !u!4 &1817340456
 Transform:
@@ -48722,21 +48577,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1817340457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817340454}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1149633985299010200, guid: 5f9baf4b450f9fe479c44b4fdf69f6e9, type: 3}
-  spawnInterval: 5
-  estaActivo: 0
 --- !u!1 &1859586410
 GameObject:
   m_ObjectHideFlags: 0
@@ -58892,6 +58732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977186792}
   - component: {fileID: 1977186791}
+  - component: {fileID: 1977186794}
   - component: {fileID: 1977186793}
   m_Layer: 0
   m_Name: spawnSlime
@@ -58930,21 +58771,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1977186793
-MonoBehaviour:
+--- !u!212 &1977186793
+SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977186790}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 395592506730809952, guid: 0ee88ef8f7943f44c84d4f1844b52a24, type: 3}
-  spawnInterval: 8
-  estaActivo: 0
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -984899534, guid: 8ae69c2f2d459ef49afcd376501792c8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &1977186794
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977186790}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9652a94ae14d02941a5b1023f23dc434, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2018348253
 GameObject:
   m_ObjectHideFlags: 0
@@ -59089,7 +58988,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2033842526}
   - component: {fileID: 2033842524}
-  - component: {fileID: 2033842525}
   m_Layer: 0
   m_Name: spawnBicho2-2
   m_TagString: Untagged
@@ -59111,21 +59009,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1149633985299010200, guid: 8181cbffa38fa9743875b4eeeb13fbb2, type: 3}
   spawnInterval: 9
-  estaActivo: 0
---- !u!114 &2033842525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033842523}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 692f35e090b7abc44b080e75c513b0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 395592506730809952, guid: 0ee88ef8f7943f44c84d4f1844b52a24, type: 3}
-  spawnInterval: 8
   estaActivo: 0
 --- !u!4 &2033842526
 Transform:
@@ -59304,7 +59187,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 834, y: -495}
+  m_AnchoredPosition: {x: 827, y: -516}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2066078699
@@ -59390,7 +59273,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -86.47931, y: 0, z: 0, w: 0}
+  m_margin: {x: -86.47931, y: 0, z: -29.16903, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

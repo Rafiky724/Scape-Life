@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8054302909210630344}
   - component: {fileID: 2786846227903280803}
-  - component: {fileID: 6583435246876655490}
-  - component: {fileID: 4277846582564054507}
   - component: {fileID: 8560372018550595530}
   - component: {fileID: 3087698330250247112}
   - component: {fileID: 3897927939178146120}
+  - component: {fileID: 6583435246876655490}
+  - component: {fileID: 4277846582564054507}
   m_Layer: 0
   m_Name: Axolot
   m_TagString: Enemy
@@ -89,38 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6583435246876655490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8249331755536849772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35ecc0a45579f3140814c8e0d0a69822, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waiToHurt: 2
-  isTouching: 0
-  damageToGive: 10
---- !u!114 &4277846582564054507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8249331755536849772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e53172a1e2ca4d24eb60a16e960b496e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monedaPrefab: {fileID: 4708963192766045103, guid: 7b7b8ac3e531fa0408971505e7906523, type: 3}
-  speed: 4
-  range: 0.12
-  currentHealth: 25
-  maxHealth: 25
 --- !u!61 &8560372018550595530
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -214,3 +182,35 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6583435246876655490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249331755536849772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ecc0a45579f3140814c8e0d0a69822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waiToHurt: 2
+  isTouching: 0
+  damageToGive: 10
+--- !u!114 &4277846582564054507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249331755536849772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e53172a1e2ca4d24eb60a16e960b496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monedaPrefab: {fileID: 4708963192766045103, guid: 7b7b8ac3e531fa0408971505e7906523, type: 3}
+  speed: 3.5
+  range: 0.12
+  currentHealth: 20
+  maxHealth: 20

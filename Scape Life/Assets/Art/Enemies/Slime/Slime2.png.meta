@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b366a5c71b677347b917fe03e917092
+guid: a86795bc449371e489001e3bec5b6867
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Reptile_0
+      name: Slime2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b162c0a954c51349970b6027b7b1328
-      internalID: 498891302
+      spriteID: 1e8278d818d692141a7f5fe64b4b938e
+      internalID: -963710707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_1
+      name: Slime2_1
       rect:
         serializedVersion: 2
         x: 16
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34de94a15e0a81c42bda514ae9a0da15
-      internalID: -410148842
+      spriteID: 8b068fdddcb16d649bdb1ae675f93f73
+      internalID: -1544317985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_2
+      name: Slime2_2
       rect:
         serializedVersion: 2
         x: 32
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b97d488b7b3a24baea29c8d03ee19e
-      internalID: -228311027
+      spriteID: 656b63bb7d4c1d9468de07a6cf1cbf2c
+      internalID: -219409621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_3
+      name: Slime2_3
       rect:
         serializedVersion: 2
         x: 48
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0683b6944f8bbf43b6447c1ee1648e0
-      internalID: 1997563383
+      spriteID: 5f5a4aed7765940438cd471feb447f3f
+      internalID: -172727081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_4
+      name: Slime2_4
       rect:
         serializedVersion: 2
         x: 0
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b71be47651342a64eb1579d018df62f4
-      internalID: -2072716051
+      spriteID: 8b36cb7dfa823d34bb39f9d80ffa276e
+      internalID: -1255942400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_5
+      name: Slime2_5
       rect:
         serializedVersion: 2
         x: 16
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc74d677d794aa9419c7ce9b7f9d86f8
-      internalID: -1194172676
+      spriteID: fb2a8812e31d0e945bffd12abc8160d7
+      internalID: -171889369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_6
+      name: Slime2_6
       rect:
         serializedVersion: 2
         x: 32
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88d7e437a66fd5d42a9259d99f229169
-      internalID: -1616435423
+      spriteID: 7b80c19a71b31d34290f7d108aa8ba46
+      internalID: -1671047922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_7
+      name: Slime2_7
       rect:
         serializedVersion: 2
         x: 48
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff87182a4b2b6f949a8553f55404b8ff
-      internalID: 446120655
+      spriteID: 2a9f4996aa99794409b30ae714367f7d
+      internalID: 1199112065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_8
+      name: Slime2_8
       rect:
         serializedVersion: 2
         x: 0
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 172fc56d06974ef459579e58c8e4c816
-      internalID: 1923147056
+      spriteID: a93ce1f86771ed745ae1a4af6a6f9598
+      internalID: -41683685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_9
+      name: Slime2_9
       rect:
         serializedVersion: 2
         x: 16
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e127e62561a574643ad5674a4dddcb6b
-      internalID: 1918972163
+      spriteID: 2d1db6ea5bc94fd4f9e29996ada4c964
+      internalID: -686621754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_10
+      name: Slime2_10
       rect:
         serializedVersion: 2
         x: 32
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2652810e73890c04cbefab0112aa95e1
-      internalID: -1523834640
+      spriteID: 2cf5ad31b8fe8254d936d983b7bb6c29
+      internalID: -1305252485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_11
+      name: Slime2_11
       rect:
         serializedVersion: 2
         x: 48
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef5e3d80f7a4a644889dcf1a3878fff
-      internalID: 1320390146
+      spriteID: 1b1735b28d64a0b4997a7b22f8d0fd3c
+      internalID: 2038332567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_12
+      name: Slime2_12
       rect:
         serializedVersion: 2
         x: 0
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d542dc871a9960043a3bffe2f4404aae
-      internalID: -1172688752
+      spriteID: 604ea59c531db5547a7b0344b797b153
+      internalID: -1096771773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_13
+      name: Slime2_13
       rect:
         serializedVersion: 2
         x: 16
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9a1189c36bba0e4fa6c48f0996d1710
-      internalID: 1084073566
+      spriteID: 21d8f896cc198744eac4d36d9969b48f
+      internalID: -1133647655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_14
+      name: Slime2_14
       rect:
         serializedVersion: 2
         x: 32
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f497a63d003642e47a514c801c012d8d
-      internalID: -866324415
+      spriteID: 6b221346c66a57846a976c272af27aca
+      internalID: -278239554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reptile_15
+      name: Slime2_15
       rect:
         serializedVersion: 2
         x: 48
@@ -426,8 +426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66813124e9e7d48498aceffcba193036
-      internalID: -1012370418
+      spriteID: aa0d377702e1e6c45926bc72b6beee0b
+      internalID: -1053415384
       vertices: []
       indices: 
       edges: []
@@ -443,22 +443,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Reptile_0: 498891302
-      Reptile_1: -410148842
-      Reptile_10: -1523834640
-      Reptile_11: 1320390146
-      Reptile_12: -1172688752
-      Reptile_13: 1084073566
-      Reptile_14: -866324415
-      Reptile_15: -1012370418
-      Reptile_2: -228311027
-      Reptile_3: 1997563383
-      Reptile_4: -2072716051
-      Reptile_5: -1194172676
-      Reptile_6: -1616435423
-      Reptile_7: 446120655
-      Reptile_8: 1923147056
-      Reptile_9: 1918972163
+      Slime2_0: -963710707
+      Slime2_1: -1544317985
+      Slime2_10: -1305252485
+      Slime2_11: 2038332567
+      Slime2_12: -1096771773
+      Slime2_13: -1133647655
+      Slime2_14: -278239554
+      Slime2_15: -1053415384
+      Slime2_2: -219409621
+      Slime2_3: -172727081
+      Slime2_4: -1255942400
+      Slime2_5: -171889369
+      Slime2_6: -1671047922
+      Slime2_7: 1199112065
+      Slime2_8: -41683685
+      Slime2_9: -686621754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

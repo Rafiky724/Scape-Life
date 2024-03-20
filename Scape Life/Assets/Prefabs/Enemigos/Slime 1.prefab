@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 432859151913595728}
   - component: {fileID: 5803463530546962745}
   - component: {fileID: 3836570478645908929}
-  - component: {fileID: 8620163300761971069}
   - component: {fileID: 8311517445189086243}
   - component: {fileID: 8098434017775102180}
+  - component: {fileID: -7432078624485563015}
   m_Layer: 0
   m_Name: Slime 1
   m_TagString: Enemy
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: -1620371583
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 491227266, guid: f928bb8a4a07a174cb72ddec4f8eceb1, type: 3}
+  m_Sprite: {fileID: -963710707, guid: a86795bc449371e489001e3bec5b6867, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -161,27 +161,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &8620163300761971069
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149633985299010200}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c82d735c8c531ec4b9b8f5fba65707c7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &8311517445189086243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,10 +174,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monedaPrefab: {fileID: 4708963192766045103, guid: 7b7b8ac3e531fa0408971505e7906523, type: 3}
-  speed: 2
+  speed: 2.2
   range: 0.12
-  currentHealth: 18
-  maxHealth: 18
+  currentHealth: 15
+  maxHealth: 15
 --- !u!114 &8098434017775102180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,3 +193,24 @@ MonoBehaviour:
   waiToHurt: 2
   isTouching: 0
   damageToGive: 7
+--- !u!95 &-7432078624485563015
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149633985299010200}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d9cfaa6548dc20d4b9b50be4db340714, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

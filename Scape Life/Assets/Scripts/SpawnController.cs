@@ -7,10 +7,10 @@ public class SpawnController : MonoBehaviour
     // Start is called before the first frame update
     public EnemySpawner[] spawns; // Arreglo que contiene los spawns de enemigos
     public float tiempoParaActivarSpawn1 = 0f; // Tiempo en segundos para activar el primer spawn
-    public float tiempoParaActivarSpawn2 = 150f; // Tiempo en segundos para activar el segundo spawn
-    public float tiempoParaActivarSpawn3 = 200f; // Tiempo en segundos para activar el segundo spawn
-    public float tiempoParaActivarSpawn4 = 350f; // Tiempo en segundos para activar el segundo spawn
-    public float tiempoParaActivarSpawn5 = 450f; // Tiempo en segundos para activar el segundo spawn
+    public float tiempoParaActivarSpawn2 = 80f; // Tiempo en segundos para activar el segundo spawn
+    public float tiempoParaActivarSpawn3 = 150f; // Tiempo en segundos para activar el segundo spawn
+    public float tiempoParaActivarSpawn4 = 220f; // Tiempo en segundos para activar el segundo spawn
+    public float tiempoParaActivarSpawn5 = 420f; // Tiempo en segundos para activar el segundo spawn
 
     private float tiempoTranscurrido = 0f;
 
@@ -22,7 +22,7 @@ public class SpawnController : MonoBehaviour
         // Verificar si es tiempo de activar el primer spawn
         if (tiempoTranscurrido >= tiempoParaActivarSpawn1)
         {
-            // Activar el primer spawn si aún no está activado
+            // Activar el primer spawn si aï¿½n no estï¿½ activado
             if (!spawns[0].estaActivo)
             {
                 spawns[0].ActivarSpawn();
@@ -46,7 +46,7 @@ public class SpawnController : MonoBehaviour
         // Verificar si es tiempo de activar el segundo spawn
         if (tiempoTranscurrido >= tiempoParaActivarSpawn2)
         {
-            // Activar el segundo spawn si aún no está activado
+            // Activar el segundo spawn si aï¿½n no estï¿½ activado
             if (!spawns[3].estaActivo)
             {
                 spawns[3].ActivarSpawn();
@@ -69,7 +69,7 @@ public class SpawnController : MonoBehaviour
 
         if (tiempoTranscurrido >= tiempoParaActivarSpawn3)
         {
-            // Activar el segundo spawn si aún no está activado
+            // Activar el segundo spawn si aï¿½n no estï¿½ activado
             if (!spawns[6].estaActivo)
             {
                 spawns[6].ActivarSpawn();
@@ -92,7 +92,7 @@ public class SpawnController : MonoBehaviour
 
         if (tiempoTranscurrido >= tiempoParaActivarSpawn4)
         {
-            // Activar el segundo spawn si aún no está activado
+            // Activar el segundo spawn si aï¿½n no estï¿½ activado
             if (!spawns[9].estaActivo)
             {
                 spawns[9].ActivarSpawn();
@@ -109,7 +109,7 @@ public class SpawnController : MonoBehaviour
 
         if (tiempoTranscurrido >= tiempoParaActivarSpawn5)
         {
-            // Activar el segundo spawn si aún no está activado
+            // Activar el segundo spawn si aï¿½n no estï¿½ activado
             if (!spawns[11].estaActivo)
             {
                 spawns[11].ActivarSpawn();
