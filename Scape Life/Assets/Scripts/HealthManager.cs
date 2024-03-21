@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class HealthManager : MonoBehaviour
 {
 
+    public musicGeneral musicGeneral;
+
     public int currentHealth;
     public int maxHealth;
 
@@ -21,10 +23,12 @@ public class HealthManager : MonoBehaviour
     [SerializeField]
     private AudioClip sonidoMorir;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
-
+       
     }
 
     // Update is called once per frame
@@ -45,6 +49,7 @@ public class HealthManager : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            musicGeneral.Pausar();     
             AudioController.Instance.EjecutarSonido(sonidoMorir);
             gameObject.SetActive(false);
             pantallaPerder.SetActive(true);
