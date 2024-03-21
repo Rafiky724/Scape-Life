@@ -16,6 +16,13 @@ public class CurarseController : MonoBehaviour
     public PlayerController player;
     public HealthManager playerLife;
 
+    [SerializeField]
+    private AudioClip sonidoEntrar;
+    [SerializeField]
+    private AudioClip sonidoComprar;
+    [SerializeField]
+    private AudioClip sonidoRechazo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +48,7 @@ public class CurarseController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            AudioController.Instance.EjecutarSonido(sonidoEntrar);
 
             Background.SetActive(true);
             isInsideZone = true;
@@ -67,6 +75,8 @@ public class CurarseController : MonoBehaviour
 
         if (player != null && player.coins >= costoMejora)
         {
+            AudioController.Instance.EjecutarSonido(sonidoComprar);
+
             player.coins -= costoMejora;
             player.MonedasActualizar();
 
@@ -76,6 +86,7 @@ public class CurarseController : MonoBehaviour
         }
         else
         {
+            AudioController.Instance.EjecutarSonido(sonidoRechazo);
             messageText.text = "No tienes suficientes monedas para comprar la mejora de recolección.";
         }
     }

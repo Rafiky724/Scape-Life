@@ -22,6 +22,12 @@ public class PlayerController : MonoBehaviour
     public int potenciaMonedas = 1;
     public int coins = 0;
 
+    [SerializeField]
+    private AudioClip sonidoMoneda;
+
+    [SerializeField]
+    private AudioClip sonidoGolpe;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -67,6 +73,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.Mouse0))
         {
+            AudioController.Instance.EjecutarSonido(sonidoGolpe);
             attackCounter = attackTime;
             myAnim.SetBool("isAttacking", true);
             isAttacking = true;
@@ -80,6 +87,8 @@ public class PlayerController : MonoBehaviour
         
         if (other.tag == "Moneda")
         {
+
+            AudioController.Instance.EjecutarSonido(sonidoMoneda);
 
             Destroy(other.gameObject);
 

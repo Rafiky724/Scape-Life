@@ -495,6 +495,9 @@ MonoBehaviour:
   messageText: {fileID: 604922635}
   curar: {fileID: 1743734580}
   Background: {fileID: 2139584192}
+  sonidoEntrar: {fileID: 8300000, guid: 4534d8f65e0fb274588021a3d8c2d7a2, type: 3}
+  sonidoComprar: {fileID: 8300000, guid: 25ea514650baf74469c770d619f00b5d, type: 3}
+  sonidoRechazo: {fileID: 8300000, guid: 2dbeab2cdfa5f7342b5e61cd4dabea7e, type: 3}
 --- !u!61 &265624514
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -646,6 +649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToGive: 3
+  "sonidoDa\xF1oEnemigo": {fileID: 8300000, guid: 08f0b1934d245494cb0bff1b354b17d4, type: 3}
 --- !u!1 &334474679
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,6 +912,9 @@ MonoBehaviour:
   messageText: {fileID: 604922635}
   Background: {fileID: 2139584192}
   playerLife: {fileID: 1889312735}
+  sonidoEntrar: {fileID: 8300000, guid: 4534d8f65e0fb274588021a3d8c2d7a2, type: 3}
+  sonidoComprar: {fileID: 8300000, guid: 25ea514650baf74469c770d619f00b5d, type: 3}
+  sonidoRechazo: {fileID: 8300000, guid: 2dbeab2cdfa5f7342b5e61cd4dabea7e, type: 3}
 --- !u!1 &438013645
 GameObject:
   m_ObjectHideFlags: 0
@@ -3745,6 +3752,8 @@ MonoBehaviour:
   messageText: {fileID: 604922635}
   Ganaste: {fileID: 2018348254}
   Background: {fileID: 2139584192}
+  sonidoEntrar: {fileID: 8300000, guid: 4534d8f65e0fb274588021a3d8c2d7a2, type: 3}
+  sonidoRechazo: {fileID: 8300000, guid: 2dbeab2cdfa5f7342b5e61cd4dabea7e, type: 3}
 --- !u!1 &1327834921
 GameObject:
   m_ObjectHideFlags: 0
@@ -5892,6 +5901,9 @@ MonoBehaviour:
   hurt2: {fileID: 2073807404}
   hurt3: {fileID: 1868327719}
   hurt4: {fileID: 1426987185}
+  sonidoEntrar: {fileID: 8300000, guid: 4534d8f65e0fb274588021a3d8c2d7a2, type: 3}
+  sonidoComprar: {fileID: 8300000, guid: 25ea514650baf74469c770d619f00b5d, type: 3}
+  sonidoRechazo: {fileID: 8300000, guid: 2dbeab2cdfa5f7342b5e61cd4dabea7e, type: 3}
 --- !u!61 &1327944749
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6247,6 +6259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToGive: 3
+  "sonidoDa\xF1oEnemigo": {fileID: 8300000, guid: 08f0b1934d245494cb0bff1b354b17d4, type: 3}
 --- !u!1 &1468132551
 GameObject:
   m_ObjectHideFlags: 0
@@ -6530,6 +6543,9 @@ MonoBehaviour:
   Background: {fileID: 2139584192}
   player: {fileID: 1889312730}
   playerLife: {fileID: 1889312735}
+  sonidoEntrar: {fileID: 8300000, guid: 4534d8f65e0fb274588021a3d8c2d7a2, type: 3}
+  sonidoComprar: {fileID: 8300000, guid: 25ea514650baf74469c770d619f00b5d, type: 3}
+  sonidoRechazo: {fileID: 8300000, guid: 2dbeab2cdfa5f7342b5e61cd4dabea7e, type: 3}
 --- !u!61 &1743734581
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49625,6 +49641,147 @@ Transform:
   - {fileID: 1868327717}
   m_Father: {fileID: 1889312732}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1794357230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1794357233}
+  - component: {fileID: 1794357232}
+  - component: {fileID: 1794357231}
+  m_Layer: 0
+  m_Name: AudioController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1794357231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794357230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d1295bd364d09478e0d41ef8c9b0d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &1794357232
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794357230}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.177
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1794357233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794357230}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1756.8427, y: 771.07916, z: -4.553537}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1817340454
 GameObject:
   m_ObjectHideFlags: 0
@@ -59389,6 +59546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToGive: 3
+  "sonidoDa\xF1oEnemigo": {fileID: 8300000, guid: 08f0b1934d245494cb0bff1b354b17d4, type: 3}
 --- !u!1 &1880313246
 GameObject:
   m_ObjectHideFlags: 0
@@ -59576,6 +59734,8 @@ MonoBehaviour:
   messageText: {fileID: 2066078699}
   potenciaMonedas: 1
   coins: 0
+  sonidoMoneda: {fileID: 8300000, guid: bad9888c561c74a44916e43f5f25f7ff, type: 3}
+  sonidoGolpe: {fileID: 8300000, guid: 3f0f3c8653c072e41ac917e830659dca, type: 3}
 --- !u!212 &1889312731
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -59720,6 +59880,8 @@ MonoBehaviour:
   pantallaPerder: {fileID: 1474999149}
   messageToShow: 
   messageText: {fileID: 841737024}
+  "sonidoDa\xF1o": {fileID: 8300000, guid: 5e6f21d39582836418ab45001e2d04fe, type: 3}
+  sonidoMorir: {fileID: 8300000, guid: e87b75ef64709a1498172f65916d986e, type: 3}
 --- !u!114 &1889312736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60606,6 +60768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToGive: 3
+  "sonidoDa\xF1oEnemigo": {fileID: 8300000, guid: 08f0b1934d245494cb0bff1b354b17d4, type: 3}
 --- !u!1 &2139584192
 GameObject:
   m_ObjectHideFlags: 0
@@ -60715,3 +60878,4 @@ SceneRoots:
   - {fileID: 1746285782}
   - {fileID: 1474999150}
   - {fileID: 1225455365}
+  - {fileID: 1794357233}

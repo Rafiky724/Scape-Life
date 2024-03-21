@@ -7,6 +7,9 @@ public class HurtEnemy : MonoBehaviour
 
     public int damageToGive = 2;
 
+    [SerializeField]
+    private AudioClip sonidoDañoEnemigo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,10 +24,10 @@ public class HurtEnemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
+
         if (other.tag == "Enemy")
         {
-
+            AudioController.Instance.EjecutarSonido(sonidoDañoEnemigo);
             EnemyController enemy;
             enemy = other.gameObject.GetComponent<EnemyController>();
             enemy.HurtEnemy(damageToGive);

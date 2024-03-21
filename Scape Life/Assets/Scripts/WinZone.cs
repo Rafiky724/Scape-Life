@@ -15,6 +15,11 @@ public class WinZone : MonoBehaviour
 
     public GameObject Background;
 
+    [SerializeField]
+    private AudioClip sonidoEntrar;
+    [SerializeField]
+    private AudioClip sonidoRechazo;
+
     private bool isInsideZone = false;
 
     void Start()
@@ -41,6 +46,7 @@ public class WinZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            AudioController.Instance.EjecutarSonido(sonidoEntrar);
             Background.SetActive(true);
             isInsideZone = true;
             messageText.text = messageToShow;
@@ -74,6 +80,7 @@ public class WinZone : MonoBehaviour
         }
         else
         {
+            AudioController.Instance.EjecutarSonido(sonidoRechazo);
             messageText.text = "No tienes suficientes monedas para comprar la mejora de vida.";
         }
     }

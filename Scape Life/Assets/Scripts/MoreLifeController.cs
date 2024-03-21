@@ -17,6 +17,13 @@ public class MoreLifeController : MonoBehaviour
 
     public HealthManager playerLife;
 
+    [SerializeField]
+    private AudioClip sonidoEntrar;
+    [SerializeField]
+    private AudioClip sonidoComprar;
+    [SerializeField]
+    private AudioClip sonidoRechazo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +58,7 @@ public class MoreLifeController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            AudioController.Instance.EjecutarSonido(sonidoEntrar);
             Background.SetActive(true);
             isInsideZone = true;
             messageText.text = messageToShow;
@@ -77,6 +85,7 @@ public class MoreLifeController : MonoBehaviour
         PlayerController player = FindObjectOfType<PlayerController>(); // Otra opción es almacenar una referencia al jugador en lugar de buscarlo cada vez.
         if (player != null && player.coins >= costoMejora)
         {
+            AudioController.Instance.EjecutarSonido(sonidoComprar);
             player.coins -= costoMejora;
             player.MonedasActualizar();
             nivelMejora++;
@@ -126,6 +135,7 @@ public class MoreLifeController : MonoBehaviour
         }
         else
         {
+            AudioController.Instance.EjecutarSonido(sonidoRechazo);
             messageText.text = "No tienes suficientes monedas para comprar la mejora de vida.";
         }
     }
