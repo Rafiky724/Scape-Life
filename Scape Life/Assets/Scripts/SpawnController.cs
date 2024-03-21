@@ -10,7 +10,9 @@ public class SpawnController : MonoBehaviour
     public float tiempoParaActivarSpawn2 = 80f; // Tiempo en segundos para activar el segundo spawn
     public float tiempoParaActivarSpawn3 = 150f; // Tiempo en segundos para activar el segundo spawn
     public float tiempoParaActivarSpawn4 = 220f; // Tiempo en segundos para activar el segundo spawn
-    public float tiempoParaActivarSpawn5 = 420f; // Tiempo en segundos para activar el segundo spawn
+    public float tiempoParaActivarSpawn5 = 320f;
+    public float tiempoParaActivarSpawn6 = 400f;
+    public float tiempoParaActivarSpawn7 = 460f;
 
     private float tiempoTranscurrido = 0f;
 
@@ -114,6 +116,34 @@ public class SpawnController : MonoBehaviour
             {
                 spawns[11].ActivarSpawn();
                 spawns[11].estaActivo = true;
+            }
+
+        }
+
+        if (tiempoTranscurrido >= tiempoParaActivarSpawn6)
+        {
+            // Activar el segundo spawn si a�n no est� activado
+            if (!spawns[12].estaActivo)
+            {
+                spawns[12].ActivarSpawn();
+                spawns[12].estaActivo = true;
+            }
+
+        }
+
+        if (tiempoTranscurrido >= tiempoParaActivarSpawn7)
+        {
+            // Activar el segundo spawn si a�n no est� activad7
+            if (!spawns[13].estaActivo)
+            {
+                spawns[13].ActivarSpawn();
+                spawns[13].estaActivo = true;
+            }
+
+            if (!spawns[14].estaActivo)
+            {
+                spawns[14].ActivarSpawn();
+                spawns[14].estaActivo = true;
             }
 
         }
