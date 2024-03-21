@@ -6,13 +6,13 @@ public class SpawnController : MonoBehaviour
 {
     // Start is called before the first frame update
     public EnemySpawner[] spawns; // Arreglo que contiene los spawns de enemigos
-    public float tiempoParaActivarSpawn1 = 0f; // Tiempo en segundos para activar el primer spawn
-    public float tiempoParaActivarSpawn2 = 80f; // Tiempo en segundos para activar el segundo spawn
-    public float tiempoParaActivarSpawn3 = 150f; // Tiempo en segundos para activar el segundo spawn
-    public float tiempoParaActivarSpawn4 = 220f; // Tiempo en segundos para activar el segundo spawn
-    public float tiempoParaActivarSpawn5 = 320f;
-    public float tiempoParaActivarSpawn6 = 400f;
-    public float tiempoParaActivarSpawn7 = 460f;
+    private float tiempoParaActivarSpawn1 = 0f; // Tiempo en segundos para activar el primer spawn
+    private float tiempoParaActivarSpawn2 = 80f; // Tiempo en segundos para activar el segundo spawn
+    private float tiempoParaActivarSpawn3 = 150f; // Tiempo en segundos para activar el segundo spawn
+    private float tiempoParaActivarSpawn4 = 220f; // Tiempo en segundos para activar el segundo spawn
+    private float tiempoParaActivarSpawn5 = 320f;
+    private float tiempoParaActivarSpawn6 = 400f;
+    private float tiempoParaActivarSpawn7 = 460f;
 
     private float tiempoTranscurrido = 0f;
 

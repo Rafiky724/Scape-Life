@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
     public void MonedasActualizar()
     {
 
-        messageToShow = "Monedas: " + coins.ToString();
+        messageToShow = coins.ToString();
         messageText.text = messageToShow;
 
     }

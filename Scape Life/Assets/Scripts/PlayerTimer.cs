@@ -6,15 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class PlayerTimer : MonoBehaviour
 {
-
+    private HealthManager healthMan;
     private float tiempoTranscurrido = 0f;
     public TextMeshProUGUI textoTiempo;
-    public float tiempoLimite = 10f;
+    public float tiempoLimite = 1f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        healthMan = FindAnyObjectByType<HealthManager>();
     }
 
     // Update is called once per frame
@@ -30,7 +30,9 @@ public class PlayerTimer : MonoBehaviour
 
         if (tiempoTranscurrido >= tiempoLimite)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Debug.Log("Muerto");
+            healthMan.HurtPlayer(healthMan.currentHealth);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
 

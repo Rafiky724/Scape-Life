@@ -10,6 +10,8 @@ public class MoreLifeController : MonoBehaviour
     public string messageToShow;
     public TextMeshProUGUI messageText;
 
+    public GameObject Background;
+
     private bool isInsideZone = false;
     private int nivelMejora = 0;
 
@@ -49,6 +51,7 @@ public class MoreLifeController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Background.SetActive(true);
             isInsideZone = true;
             messageText.text = messageToShow;
             messageText.gameObject.SetActive(true);
@@ -60,6 +63,7 @@ public class MoreLifeController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Background.SetActive(false);
             isInsideZone = false;
             messageText.gameObject.SetActive(false);
 

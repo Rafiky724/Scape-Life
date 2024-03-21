@@ -10,6 +10,7 @@ public class MoreCoinsController : MonoBehaviour
     public string messageToShow;
     public TextMeshProUGUI messageText;
     public CurarseController curar;
+    public GameObject Background;
 
     private bool isInsideZone = false;
     private int nivelMejora = 0;
@@ -48,6 +49,7 @@ public class MoreCoinsController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Background.SetActive(true);
             isInsideZone = true;
             messageText.text = messageToShow;
             messageText.gameObject.SetActive(true);
@@ -59,6 +61,7 @@ public class MoreCoinsController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Background.SetActive(false);
             isInsideZone = false;
             messageText.gameObject.SetActive(false);
 
@@ -95,7 +98,7 @@ public class MoreCoinsController : MonoBehaviour
             {
 
                 player.potenciaMonedas = 30;
-                costoMejora = 2000;
+                costoMejora = 2500;
 
 
             }
@@ -103,7 +106,7 @@ public class MoreCoinsController : MonoBehaviour
             {
 
                 player.potenciaMonedas = 100;
-                costoMejora = 8000;
+                costoMejora = 10000;
 
 
             }

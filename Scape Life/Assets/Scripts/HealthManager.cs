@@ -10,6 +10,8 @@ public class HealthManager : MonoBehaviour
     public int currentHealth;
     public int maxHealth;
 
+    public GameObject pantallaPerder;
+
     public string messageToShow;
     public TextMeshProUGUI messageText;
 
@@ -36,7 +38,7 @@ public class HealthManager : MonoBehaviour
         if (currentHealth <= 0)
         {
             gameObject.SetActive(false);
-            SceneManager.LoadScene("SampleScene");
+            pantallaPerder.SetActive(true);
 
         }
 

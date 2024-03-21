@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinZone : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public int costoMejora = 20000;
+    public int costoMejora = 100000;
     public string messageToShow;
     public TextMeshProUGUI messageText;
     public TextMeshProUGUI Ganaste;
+
+    public GameObject Background;
 
     private bool isInsideZone = false;
 
@@ -38,6 +41,7 @@ public class WinZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Background.SetActive(true);
             isInsideZone = true;
             messageText.text = messageToShow;
             messageText.gameObject.SetActive(true);
@@ -49,6 +53,7 @@ public class WinZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Background.SetActive(false);
             isInsideZone = false;
             messageText.gameObject.SetActive(false);
 
@@ -64,7 +69,7 @@ public class WinZone : MonoBehaviour
             player.coins -= costoMejora;
             player.MonedasActualizar();
 
-            Ganaste.text = "¡GANASTE!";
+            SceneManager.LoadScene("Victoria");
 
         }
         else

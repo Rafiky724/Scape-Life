@@ -10,6 +10,8 @@ public class CurarseController : MonoBehaviour
     public string messageToShow;
     public TextMeshProUGUI messageText;
 
+    public GameObject Background;
+
     private bool isInsideZone = false;
     public PlayerController player;
     public HealthManager playerLife;
@@ -39,6 +41,8 @@ public class CurarseController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+
+            Background.SetActive(true);
             isInsideZone = true;
             messageText.text = messageToShow;
             messageText.gameObject.SetActive(true);
@@ -50,6 +54,7 @@ public class CurarseController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Background.SetActive(false);
             isInsideZone = false;
             messageText.gameObject.SetActive(false);
 

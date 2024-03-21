@@ -11,6 +11,8 @@ public class MoreDamageController : MonoBehaviour
     public string messageToShow;
     public TextMeshProUGUI messageText;
 
+    public GameObject Background;
+
     private bool isInsideZone = false;
     private int nivelMejora = 0;
 
@@ -55,6 +57,8 @@ public class MoreDamageController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+
+            Background.SetActive(true);
             isInsideZone = true;
             messageText.text = messageToShow;
             messageText.gameObject.SetActive(true);
@@ -66,6 +70,7 @@ public class MoreDamageController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Background.SetActive(false);
             isInsideZone = false;
             messageText.gameObject.SetActive(false);
 
@@ -129,7 +134,7 @@ public class MoreDamageController : MonoBehaviour
                 hurt2.damageToGive = 12;
                 hurt3.damageToGive = 12;
                 hurt4.damageToGive = 12;
-                costoMejora = 1000;
+                costoMejora = 1500;
 
 
             }
@@ -140,7 +145,7 @@ public class MoreDamageController : MonoBehaviour
                 hurt2.damageToGive = 18;
                 hurt3.damageToGive = 18;
                 hurt4.damageToGive = 18;
-                costoMejora = 2500;
+                costoMejora = 3500;
 
 
             }
